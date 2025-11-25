@@ -1,0 +1,12 @@
+{
+	"name":"Raju",
+	"gender":"M",
+	"qualification":"MCA",
+	"address":{
+		"dno":"G25",
+		"location":"SR Nagar",
+		"pincode":500038,
+		"landmark":"Near Icici Bank"
+	}
+	
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.testing.JsonUtilsUnitTestCases">
+				<methods>
+					<include name="readDataFromInvalidJsonFileTest" />
+					<exclude
+						name="readDataFromValidJsonFileWithInvalidFieldTest" />
+					<exclude name="readDataFromValidJsonFileWithValidFieldTest" />
+					<include
+						name="readDataFromValidJsonWithUserDetailsModelTest" />
+				</methods>
+			</class>
+
+
+			<class name="com.testing.XmlUtilsUnitTestCases">
+				<methods>
+					<include name="readDataFromInvalidXmlFileTest" />
+					<include name="readDataFromValidXmlFileTest" />
+				</methods>
+			</class>
+
+
+			<class name="com.testing.ExcelUtlsUnitTestCases">
+				<methods>
+					<include name="readDataFromInvalidExcelFileTest" />
+					<exclude
+						name="readDataFromValidExcelFileAndInvalidSheetTest" />
+					<include name="readDataFromValidExcelFileAndValidSheetTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

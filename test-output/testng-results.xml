@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-25T08:01:46 IST" name="Suite" finished-at="2025-11-25T08:01:50 IST" duration-ms="3768">
+    <groups>
+    </groups>
+    <test started-at="2025-11-25T08:01:46 IST" name="Test" finished-at="2025-11-25T08:01:50 IST" duration-ms="3768">
+      <class name="com.testing.JsonUtilsUnitTestCases">
+        <test-method signature="readDataFromInvalidJsonFileTest()[pri:0, instance:com.testing.JsonUtilsUnitTestCases@2f9f7dcf]" started-at="2025-11-25T08:01:46 IST" name="readDataFromInvalidJsonFileTest" finished-at="2025-11-25T08:01:46 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromInvalidJsonFileTest -->
+        <test-method signature="readDataFromValidJsonWithUserDetailsModelTest()[pri:0, instance:com.testing.JsonUtilsUnitTestCases@2f9f7dcf]" started-at="2025-11-25T08:01:46 IST" name="readDataFromValidJsonWithUserDetailsModelTest" finished-at="2025-11-25T08:01:47 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromValidJsonWithUserDetailsModelTest -->
+      </class> <!-- com.testing.JsonUtilsUnitTestCases -->
+      <class name="com.testing.ExcelUtlsUnitTestCases">
+        <test-method signature="readDataFromInvalidExcelFileTest()[pri:0, instance:com.testing.ExcelUtlsUnitTestCases@3c19aaa5]" started-at="2025-11-25T08:01:48 IST" name="readDataFromInvalidExcelFileTest" finished-at="2025-11-25T08:01:48 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromInvalidExcelFileTest -->
+        <test-method signature="readDataFromValidExcelFileAndValidSheetTest()[pri:0, instance:com.testing.ExcelUtlsUnitTestCases@3c19aaa5]" started-at="2025-11-25T08:01:48 IST" name="readDataFromValidExcelFileAndValidSheetTest" finished-at="2025-11-25T08:01:50 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromValidExcelFileAndValidSheetTest -->
+      </class> <!-- com.testing.ExcelUtlsUnitTestCases -->
+      <class name="com.testing.XmlUtilsUnitTestCases">
+        <test-method signature="readDataFromInvalidXmlFileTest()[pri:0, instance:com.testing.XmlUtilsUnitTestCases@130d63be]" started-at="2025-11-25T08:01:47 IST" name="readDataFromInvalidXmlFileTest" finished-at="2025-11-25T08:01:47 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromInvalidXmlFileTest -->
+        <test-method signature="readDataFromValidXmlFileTest()[pri:0, instance:com.testing.XmlUtilsUnitTestCases@130d63be]" started-at="2025-11-25T08:01:47 IST" name="readDataFromValidXmlFileTest" finished-at="2025-11-25T08:01:48 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromValidXmlFileTest -->
+      </class> <!-- com.testing.XmlUtilsUnitTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
