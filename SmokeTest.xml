@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  <parameter name="UserName" value="Abc123" />
+  <parameter name="Password" value="123@abc" />
+  	<groups>
+  		<run>
+  			<include name="SmokeTest" />
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.testng.TestNGTest"/>
+      <class name="com.testng.TestNGTest2"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--<test thread-count="5" name="Test2">
+  	<groups>
+  		<run>
+  			<include name="SmokeTest" />
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.testng.TestNGTest"/>
+      <class name="com.testng.TestNGTest2"/>      
+    </classes>
+  </test>  Test -->
+</suite> <!-- Suite -->

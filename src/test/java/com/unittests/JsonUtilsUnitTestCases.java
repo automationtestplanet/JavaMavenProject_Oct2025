@@ -1,4 +1,4 @@
-package com.testing;
+package com.unittests;
 
 import org.json.simple.JSONObject;
 import org.junit.Assert;
